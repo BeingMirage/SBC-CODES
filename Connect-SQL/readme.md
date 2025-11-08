@@ -12,6 +12,7 @@ Open **MySQL Command Line** or **MySQL Workbench**, then log in:
 ```bash
 mysql -u root -p
 
+```
 
 CREATE DATABASE college;
 USE college;
@@ -31,18 +32,22 @@ INSERT INTO students (name, course, marks) VALUES
 SELECT * FROM students;
 
 
-### How to run code :
+
+## ⚙️2️⃣ How to run code :
 
 
-## Directory Structure
+### Directory Structure
 Connect-SQL/
 │
 ├── RetrieveStudents.java
 ├── mysql-connector-j-9.5.0.jar
 
-## Step 1
+### Step 1
+```
 javac -cp .;mysql-connector-j-9.5.0.jar RetrieveStudents.java
+```
 
-## Step 2
+### Step 2
+```
 java -cp .;mysql-connector-j-9.5.0.jar RetrieveStudents
-
+```
